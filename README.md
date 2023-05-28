@@ -5,7 +5,9 @@ This project handles de CRUD operations for the product microservice
 ### Developed by: **Sebastián Londoño Valencia**
 May 2023
 
-**Subject**: Microservices Oriented Arquitecture
+**Subject**: Microservices Oriented Architecture
+
+microservice-oriented architectures
 
 ##  Execution: 
 1. npm i
