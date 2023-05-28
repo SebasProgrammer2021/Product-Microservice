@@ -1,0 +1,36 @@
+###
+//CREATE A PRODUCT
+POST http://localhost:9000/api/product HTTP/1.1
+Content-Type: application/json
+
+{
+    "code": 2134123,
+    "name": "Parlante azul",
+    "price": 22300
+}
+
+###
+//FIND ALL
+GET http://localhost:9000/api/product/getAll HTTP/1.1
+Content-Type: application/json
+
+###.
+//FIND BY ID
+GET http://localhost:9000/api/product/647289daa13150571c8ae2ed1 HTTP/1.1
+Content-Type: application/json
+
+###
+//UPDATE A PRODUCT
+PUT http://localhost:9000/api/product HTTP/1.1
+Content-Type: application/json
+
+{
+    "code": 2134123,
+    "name": "Parlante azul rojo con blutu 2.0 usb,",
+    "price": 22300
+}
+
+###.
+//DELETE BY ID
+DELETE http://localhost:9000/api/product/647289daa13150571c8ae2ed HTTP/1.1
+Content-Type: application/json
