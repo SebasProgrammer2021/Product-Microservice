@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/api", productRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Welcome");
+  res.send("Welcome the server is running!");
 });
 
 //mongo connection

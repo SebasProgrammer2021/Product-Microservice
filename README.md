@@ -14,6 +14,7 @@ May 2023
 ## Project commands:
 1. `npm i` install the required dependencies
 2. `npm run start` start the project in port 9000
+3. `docker build -t product-microservice .` to build the docker image
 
 ## Project information
 This project is built with:
@@ -21,6 +22,10 @@ This project is built with:
 2. nodemon
 3. mongo db -  mongo atlas
 4. dotenv for handling env variables
+5. project dockerized
+
+the microservices listens on port 9000
+
 
 
 
