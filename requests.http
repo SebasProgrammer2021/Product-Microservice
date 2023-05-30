@@ -4,9 +4,10 @@ POST http://localhost:9000/api/product HTTP/1.1
 Content-Type: application/json
 
 {
-    "code": 2134123,
-    "name": "Parlante azul",
-    "price": 22300
+    "code": 465462182,
+    "name": "Parlante azul negro 3",
+    "price": 22300,
+    "entradas": 10
 }
 
 ###
@@ -16,7 +17,7 @@ Content-Type: application/json
 
 ###.
 //FIND BY ID
-GET http://localhost:9000/api/product/647289daa13150571c8ae2ed1 HTTP/1.1
+GET http://localhost:9000/api/product/64757fa483a2a02c6b786cc8 HTTP/1.1
 Content-Type: application/json
 
 ###
@@ -25,12 +26,17 @@ PUT http://localhost:9000/api/product HTTP/1.1
 Content-Type: application/json
 
 {
-    "code": 2134123,
-    "name": "Parlante azul rojo con blutu 2.0 usb,",
-    "price": 22300
+    "code": 46546218,
+    "name": "Parlante azul negro 2.0",
+    "price": 32300
 }
 
 ###.
 //DELETE BY ID
-DELETE http://localhost:9000/api/product/647289daa13150571c8ae2ed HTTP/1.1
+DELETE http://localhost:9000/api/product/64757fa483a2a02c6b786cc8 HTTP/1.1
+Content-Type: application/json
+
+###.
+//DELETE ALL
+DELETE http://localhost:9000/api/product HTTP/1.1
 Content-Type: application/json
